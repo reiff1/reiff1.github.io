@@ -1,0 +1,215 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background: url(/images/background.png) no-repeat center center fixed;
+}
+img{
+    max-width: 100%;
+}
+.menu{
+    width: 20vw;
+    height: 814px;
+    margin-top: 62px;
+    position: fixed;
+}
+a:link{
+    color: black;
+}
+a:active{
+    background-color: black;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.buttons{
+    text-align: center;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 50px;
+    color: black;
+}
+.social{
+    width: 72px;
+    height: 21px;
+    margin-top: 480px;
+    margin-left: 105px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.behance{
+    width: 21px;
+    height: auto;
+}
+.instagram{
+    width: 21px;
+    height: auto;
+}
+.linkedin{
+    width: 21px;
+    height: auto;
+}
+.content{
+    margin-left: 20%;
+    align-content: center;
+}
+.brand{
+    width: 181px;
+    height: auto;
+    margin-top: 62px;
+    margin-left: 500px;
+    align-content: center;
+    margin-right: auto;
+}
+.projects{
+    width: 50vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 5%;
+    margin-left: 100px;
+    margin-right: auto;
+    }
+.work{
+    height: 238px;
+    width: 307px;
+    min-height: 100px;
+    }
+    @media only screen and (max-width: 1385px){
+        .body{
+            width: 100vw;
+        }
+        .menu{
+            width: 20vw;
+            height: 814px;
+            margin-top: 62px;
+            position: fixed;
+        }
+        .buttons{
+            text-align: center;
+            font-family: benton-sans, sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            line-height: 45px;
+            color: black;
+        }
+        .brand2{
+            display: none;
+            visibility: hidden;
+        }
+        .social{
+            width: 72px;
+            height: 21px;
+            margin-top: 480px;
+            margin-left: 68px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .behance{
+            width: 21px;
+        }
+        .instagram{
+            width: 21px;
+        }
+        .linkedin{
+            width: 21px;
+        }
+        .content{
+          margin-left: 20%;
+        }
+        .brand{
+            width: 138px;
+            height: auto;
+            margin-top: 62px;
+            margin-left: 400px;
+        }
+        .projects{
+            width: 40vw;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 35px;
+            margin-top: 75px;
+            margin-left: 150px;
+        }
+        .work{
+            height: 238px;
+            width: 307px;
+            min-height: 100px;
+
+        }
+    }
+    @media only screen and (max-width: 890px)
+    {
+    .body{
+        background: url(/images/background.png);
+        width: auto;
+        height: auto;
+    }
+    .menu{
+        width: 30vw;
+        height: 600px;
+        margin-top: 62px;
+        position: fixed;
+    }
+    .buttons{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 50px;
+        color: black;
+    }
+    .social{
+        width: 72px;
+        height: 21px;
+        margin-top: 465px;
+        margin-left: 8vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        position: fixed;
+    }
+    .behance{
+        width: 21px;
+    }
+    .instagram{
+        width: 21px;
+    }
+    .linkedin{
+        width: 21px;
+    }
+    .content{
+        width: auto;
+        height: auto;
+    }
+    .brand{
+        width: 120px;
+        height: auto;
+        position: absolute;
+        margin-left: -95px;
+        margin-top: 500px;
+        position: fixed;
+    }
+    .projects{
+        height: auto;
+        width: 100%;
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin-left: 20vw;
+}
+    .work{
+        height: 238px;
+        width: 307px;
+        min-height: 100px;
+    }
