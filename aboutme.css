@@ -12,6 +12,7 @@ img{
     height: 814px;
     margin-top: 62px;
     position: fixed;
+    text-align: center;
 }
 a:link{
     color: black;
@@ -27,6 +28,8 @@ a:hover{
     color: black;
 }
 .buttons{
+    width: auto;
+    height: auto;
     text-align: center;
     font-family: benton-sans, sans-serif;
     font-weight: 600;
@@ -35,7 +38,7 @@ a:hover{
     color: black;
 }
 .branding{
-    width: 20vw;
+    width: 12vw;
     height: auto;
     margin-top: 400px;
     margin-left: 105px;
@@ -44,7 +47,7 @@ a:hover{
     width: 72px;
     height: 21px;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 142px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -66,34 +69,136 @@ a:hover{
     height: auto;
     margin-left: 500px;
 }
-.title{
-    text-align: center;
+.name{
+    width: auto;
+    height: auto;
     font-family: benton-sans, sans-serif;
     font-weight: 600;
     font-style: normal;
+    line-height: 50px;
     color: black;
-    margin-top: 62px;
+    letter-spacing: 4px;
+    margin-top: 342px;
+    font-size: 24px;
 }
 .descript{
-    text-align: left;
+    width:315px;
+    height: 325px;
+    margin-top: 28px;
     font-family: benton-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
-    margin-top: 30px;
+    line-height: 30px;
+    color: #707070;
+    font-size: 18px;
+    position: absolute;
 }
-.grid{
-    width: 50vw;
-    height: auto;
+.photo{
+    width: 436px;
+    height: 581px;
+    margin-left: 345px;
+    margin-top: -228px;
+}
+@media only screen and (max-width: 1385px){
+    body, html{
+    padding: 0;
+    margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    margin-top: 30px;
+    background: url(/images/background.png) no-repeat center center fixed;
 }
-.ptitle{
+img{
+    max-width: 100%;
+}
+.menu{
+    width: 20vw;
+    height: 814px;
+    margin-top: 62px;
+    position: fixed;
+    text-align: center;
+}
+a:link{
+    color: black;
+}
+a:active{
+    background-color: black;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.buttons{
+    width: 5vw;
+    height: auto;
     text-align: center;
     font-family: benton-sans, sans-serif;
     font-weight: 600;
     font-style: normal;
+    line-height: 50px;
     color: black;
+}
+.branding{
+    width: 12vw;
+    height: auto;
+    margin-top: 400px;
+    margin-left: 45px;
+}
+.social{
+    width: 72px;
+    height: 21px;
+    margin-top: 30px;
+    margin-left: 88px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.behance{
+    width: 21px;
+    height: auto;
+}
+.instagram{
+    width: 21px;
+    height: auto;
+}
+.linkedin{
+    width: 21px;
+    height: auto;
+}
+.content{
+    width: 50vw;
+    height: auto;
+    margin-left: 500px;
+}
+.name{
+    width: auto;
+    height: auto;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 50px;
+    color: black;
+    letter-spacing: 4px;
+    margin-top: 342px;
+    font-size: 24px;
+}
+.descript{
+    width:315px;
+    height: 325px;
+    margin-top: 28px;
+    font-family: benton-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    color: #707070;
+    font-size: 18px;
+    position: absolute;
+}
+.photo{
+    width: 436px;
+    height: 581px;
+    margin-left: 345px;
+    margin-top: -228px;
+}
 }
