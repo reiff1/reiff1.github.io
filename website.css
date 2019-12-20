@@ -1,0 +1,297 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background: url(/images/background.png) no-repeat center center fixed;
+}
+img{
+    max-width: 100%;
+}
+.menu{
+    width: 20vw;
+    height: 814px;
+    margin-top: 62px;
+    position: fixed;
+}
+a:link{
+    color: black;
+}
+a:active{
+    background-color: black;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.buttons{
+    text-align: center;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 50px;
+    color: black;
+}
+.branding{
+    width: 181px;
+    height: auto;
+    margin-top: 400px;
+    margin-left: 105px;
+}
+.social{
+    width: 72px;
+    height: 21px;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.behance{
+    width: 21px;
+    height: auto;
+}
+.instagram{
+    width: 21px;
+    height: auto;
+}
+.linkedin{
+    width: 21px;
+    height: auto;
+}
+.content{
+    width: 50vw;
+    height: auto;
+    margin-left: 500px;
+}
+.title{
+    text-align: center;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    margin-top: 62px;
+}
+.descript{
+    text-align: left;
+    font-family: benton-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-top: 30px;
+}
+.grid{
+    width: 50vw;
+    height: auto;
+    margin-top: 30px;
+}
+.image{
+    height: auto;
+    width: 100%;
+}
+.ptitle{
+    text-align: center;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+@media only screen and (max-width: 1385px){
+    body, html{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        background: url(/images/background.png) no-repeat center center fixed;
+    }
+    img{
+        max-width: 100%;
+    }
+    .menu{
+        width: 20vw;
+        height: 814px;
+        margin-top: 62px;
+        position: fixed;
+    }
+    a:link{
+        color: black;
+    }
+    a:active{
+        background-color: black;
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    .buttons{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 50px;
+        color: black;
+    }
+    .branding{
+        width: 15vw;
+        height: auto;
+        margin-top: 400px;
+        margin-left: 45px;
+    }
+    .social{
+        width: 72px;
+        height: 21px;
+        margin-top: 30px;
+        margin-left: 88px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .behance{
+        width: 21px;
+        height: auto;
+    }
+    .instagram{
+        width: 21px;
+        height: auto;
+    }
+    .linkedin{
+        width: 21px;
+        height: auto;
+    }
+    .content{
+        width: 50vw;
+        height: auto;
+        margin-left: 300px;
+    }
+    .title{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        margin-top: 62px;
+    }
+    .descript{
+        text-align: left;
+        font-family: benton-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        color: black;
+        margin-top: 30px;
+    }
+    .grid{
+        width: 50vw;
+        height: auto;
+        margin-top: 30px;
+    }
+    .ptitle{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+    }
+}
+    @media only screen and (max-width: 890px){
+    body, html{
+        display: grid;
+        background: url(/images/background.png) no-repeat center center fixed;
+    }
+    img{
+        max-width: 100%;
+    }
+    .menu{
+        width: 20vw;
+        height: 814px;
+        margin-top: 62px;
+        position: fixed;
+    }
+    a:link{
+        color: black;
+    }
+    a:active{
+        background-color: black;
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    .buttons{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 50px;
+        color: black;
+    }
+    .branding{
+        min-width: 17vw;
+        width: 15vw;
+        height: auto;
+        margin-top: 400px;
+        margin-left: 25px;
+    }
+    .social{
+        width: 72px;
+        height: 21px;
+        margin-top: 30px;
+        margin-left: 38px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .behance{
+        width: 21px;
+        height: auto;
+    }
+    .instagram{
+        width: 21px;
+        height: auto;
+    }
+    .linkedin{
+        width: 21px;
+        height: auto;
+    }
+    .content{
+        width: 50vw;
+        height: auto;
+        margin-left: 250px;
+    }
+    .title{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        margin-top: 62px;
+    }
+    .descript{
+        text-align: left;
+        font-family: benton-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        color: black;
+        margin-top: 30px;
+    }
+    .grid{
+        width: 50vw;
+        height: auto;
+        margin-top: 30px;
+    }
+    .ptitle{
+        text-align: center;
+        font-family: benton-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+    }
+}
